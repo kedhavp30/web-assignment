@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #003838;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+h1 {
+    color:#00ACEE;
+    text-transform:uppercase;
+}
+span{
+    color: red;
+}
+p.wlc_message{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color:#00ACEE;
+}
+fieldset{
+  border: 5px solid #00ACEE;
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 30px;
+  background-color: beige;
+  color: black;
+  
+}
+div{
+    text-align: center;
+}
+
+form
+{
+    color:beige;
+    text-align: center;
+}
+legend{
+    font-size:120%;
+    color: #00ACEE;
+}
