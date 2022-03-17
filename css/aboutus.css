@@ -1,2 +1,18 @@
 @import "nav.css";
 @import "footer.css";
+
+.about-us {
+  display: flex;
+  padding: 50px 100px;
+}
+
+.about-us img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.about-us-desc{
+  margin-left: 70px;
+  line-height: 2;
+}

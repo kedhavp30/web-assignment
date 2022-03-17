@@ -2,13 +2,36 @@
 @import "footer.css";
 @import "star.css";
 
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 0;
+  height:650px;
+  background-image: url('../img/pexels-photo-994517.webp');
+}
+
 fieldset{
-    border: 5px solid #00ACEE;
-    width: 250px;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 30px;
-    background-color: beige;
-    color: black;
-    
-  }
+  border: 5px solid #00ACEE;
+  border-radius: 30px;
+  background-color: beige;
+  color: black;
+  width: 250px;
+  text-align: center;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  color: #383838;
+}
+
+.personal-details, .product-details {
+  width: 70%;
+  padding: 15px;
+}
+
+.product-details textarea {
+  resize: none;
+}

@@ -31,18 +31,19 @@ const createFooter = () => {
        </div>
     </div>
     <p class = "footer-title">About STYLISHWEAR</p>
-    <p class = "info">Since the last two decades technology has drastically transformed  the lifestyles
-            of human beings.  Technology has advanced to such a  point that anyone can accomplish anything 
-            just by sitting in a room. The internet is a tool that may help a person in various aspects.
-            For instance, if someone wishes to buy and view products, they can do so with the help of the internet.
-            Today, there are very limited organizations which do not rely on technology and digitalisation. 
-            Whether it's advertising, banking, or shopping, everything is going to be automated. 
-            We are providing online clothes shopping  to ease the lives of local people. 
-            We have introduced three types of users in this project: unregistered users, registered users, 
-            and administrators. </p>
+    <p class = "info"> STYLISHWEAR, a newly launched online clothing website, knows the 
+    fashion industry can be a dirty place, thereby supporting eco-friendly standards. 
+    The brand wants the customers to look and feel as clean as possible with its high-quality
+     apparel for both men and women including hoodies & sweatshirts, dresses, 
+     trousers and the comfiest tees among others. The clothes are made from organic and 
+     sustainably grown cotton, biodegradable modal and alpaca fibre and they are all crafted 
+     from non-toxic dyes. So, the categories of clothes are A+ quality, hence, our customers
+      may not necessarily wash their clothes after one wear. 
+ </p>
     <p class="info">Support E-Mail- stylishwearhelpsupport.com,
         customersupport@clothing.com</p>
-    <p class="info">Telephone - 4448888, 57448899</p>
+    <p class="info">Contact Number - 4244589, 57448899</p>
+    <p class="info">Rue Des Forges, Port Louis</p>
 
     <div class="footer-social-container">
         <div>

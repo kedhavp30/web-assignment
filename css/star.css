@@ -1,18 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 .rate {
-    float: center;
     height: 46px;
     padding: 1 10px;
+    text-align: center;
 }
 .rate:not(:checked) > input {
     position:absolute;
     top:-9999px;
 }
 .rate:not(:checked) > label {
-    float: right;
     width: lem;
     overflow: hidden;
     white-space: nowrap;
