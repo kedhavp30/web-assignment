@@ -1,0 +1,14 @@
+@import "nav.css";
+@import "footer.css";
+@import "star.css";
+
+fieldset{
+    border: 5px solid #00ACEE;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+    background-color: beige;
+    color: black;
+    
+  }
