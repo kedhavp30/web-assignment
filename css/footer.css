@@ -45,7 +45,7 @@ footer{
 }
 
 .footer-link:hover{
-    color:#fff;
+    color:#00ACEE;
 
 }
 
@@ -74,6 +74,10 @@ footer{
 .social-link i{
     color: #00ACEE;
     font-size: 32px;
+}
+
+.social-link i:hover{
+    color: #fff;
 }
 
 .social-link:nth-child(1){
