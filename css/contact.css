@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+.main-content {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: black;
+}
+
+.about-us {
+    position: absolute;
+    width: 80vw;
+    height: 80%;
+    background: white;
+}
+
+h1 {
+    color:#00ACEE;
+    text-transform:uppercase;
+}
+
+span {
+    color: red;
+}
+
+p.wlc_message{
+    font-size: small;
+    color:#00ACEE;
+}
+
+fieldset{
+  border: 5px solid #00ACEE;
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 30px;
+  background-color: beige;
+  color: black;
+  
+}
+.contact-us{
+    text-align: center;
+    margin: 10% 20px;
+    padding:1px 16px;
+    height: 500px;
+}
+
+form {
+    color:beige;
+    text-align: center;
+}
+
+legend{
+    font-size:120%;
+    color: #00ACEE;
+}

@@ -30,7 +30,7 @@ const createFooter = () => {
         </ul>
        </div>
     </div>
-    <p class = "footer-title">About Company</p>
+    <p class = "footer-title">About STYLISHWEAR</p>
     <p class = "info">Since the last two decades technology has drastically transformed  the lifestyles
             of human beings.  Technology has advanced to such a  point that anyone can accomplish anything 
             just by sitting in a room. The internet is a tool that may help a person in various aspects.
