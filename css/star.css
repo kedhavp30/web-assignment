@@ -1,13 +1,15 @@
-.rate {
-    height: 46px;
-    padding: 1 10px;
-    text-align: center;
+.star-rating {
+  height: 46px;
+  padding: 1px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
-.rate:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
+.star-rating:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
 }
-.rate:not(:checked) > label {
+.star-rating:not(:checked) > label {
     width: lem;
     overflow: hidden;
     white-space: nowrap;
@@ -15,20 +17,20 @@
     font-size: 30px;
     color: #ccc;
 }
-.rate:not(:checked) > label:before {
+.star-rating:not(:checked) > label:before {
     content:  '★ ';
 }
-.rate > input:checked ~ label {
+.star-rating > input:checked ~ label {
     color: #00ACEE;    
 }
-.rate:not(:checked) > label:hover,
-.rate:not(:checked) > label:hover ~ label {
+.star-rating:not(:checked) > label:hover,
+.star-rating:not(:checked) > label:hover ~ label {
     color: #00ACEE;  
 }
-.rate>  input:checked + label:hover,
-.rate > input:checked + label:hover ~ label,
-.rate > input:checked ~ label:hover,
-.rate > input:checked ~ label:hover ~ label,
-.rate > label:hover ~ input:checked ~ label {
+.star-rating > input:checked + label:hover,
+.star-rating > input:checked + label:hover ~ label,
+.star-rating > input:checked ~ label:hover,
+.star-rating > input:checked ~ label:hover ~ label,
+.star-rating > label:hover ~ input:checked ~ label {
     color: #00ACEE;
 }

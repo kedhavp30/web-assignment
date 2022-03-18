@@ -6,9 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/aboutus.css">
 </head>
@@ -47,14 +44,12 @@
     
       <div class="contact-us-form">
           <legend>Personal Information</legend>
-          <label>First Name<span> * </span></label>
-          <input type ="text" value="" name= "fname" title="First name should start with an uppercase letter" required  style="margin-top:5px" />
-          <br><br>
-          <label>Last Name<span> * </span></label> 
-          <input type ="text" value="" name= "lname" title="Last name should start with an uppercase letter" required  />
-          <br/><br/><br/>
+          <label>Username<span> * </span></label>
+          <input type ="text" value="" name= "fname" title="Username should be alpha-numeric" required  style="margin-top:5px" />
+          
+          <br/><br/>
           <label>Email<span> * </span></label> 
-          <input type ="text" value="" name= "email" title="email should contains the @ sign" required />
+          <input type ="text" value="" name= "email" title="email should contains the @ and . sign" required />
           <br/><br/><br/>
           <label>Message<span> * </span></label><br/>
           <textarea  rows="10" cols="60" name="comment" title="should leave a comment" required></textarea><br/><br/>

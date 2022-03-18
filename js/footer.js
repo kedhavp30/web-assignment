@@ -37,8 +37,7 @@ const createFooter = () => {
      apparel for both men and women including hoodies & sweatshirts, dresses, 
      trousers and the comfiest tees among others. The clothes are made from organic and 
      sustainably grown cotton, biodegradable modal and alpaca fibre and they are all crafted 
-     from non-toxic dyes. So, the categories of clothes are A+ quality, hence, our customers
-      may not necessarily wash their clothes after one wear. 
+     from non-toxic dyes. 
  </p>
     <p class="info">Support E-Mail- stylishwearhelpsupport.com,
         customersupport@clothing.com</p>

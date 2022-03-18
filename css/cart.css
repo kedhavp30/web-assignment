@@ -3,6 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+h1{
+	color: white;
+	background-color: black;
+}
 body {
 	background: #ffe3e2;
 	font-family: montserrat;
@@ -63,13 +67,13 @@ body {
 	bottom: 20px;
 	right: 20px;
 	padding: 10px 25px;
-	background-color: #3a71a9;
+	background-color: #00ACEE;
 	color: white;
 	cursor: pointer;
 	border-radius: 5px;
 }
 .btn-area:hover {
-	background-color: #76bfb6;
+	background-color: black;
 	color: #fff;
 	font-weight: 600;
 }
@@ -100,7 +104,7 @@ body {
 	font-size: 20px;
 }
 .right-bar a {
-	background-color: #76bfb6;
+	background-color: #00ACEE;
 	color: #fff;
 	text-decoration: none;
 	display: block;
@@ -113,7 +117,7 @@ body {
 	margin-right: 15px;
 }
 .right-bar a:hover {
-	background-color: #3972a7;
+	background-color: black;
 }
 @media screen and (max-width: 700px) {
 	.content h3 {
