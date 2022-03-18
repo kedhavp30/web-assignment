@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Product</title>
 
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/viewproduct.css">
 </head>
@@ -26,22 +30,25 @@
         <div class="details">
             <h2 class="product-brand">Calvin Klein</h2>
             <p class="product-short-des">Dark Green Colour</p>
+            <span class="product-rating">Rating: 4.7/5</span> <br/><br/>
             <span class="product-price">Rs 175</span>
             <span class="product-actual-price">Rs 350</span>
             <span class="product-discount">(50% off)</span>
 
             <p class="product-sub-heading">select size</p>
 
-            <input type="radio" name="size" value="s" checked hidden id="s-size"> 
-            <label for = "s-size" class="size-radio-btn check">s</label>
-            <input type="radio" name="size" value="m" hidden id="m-size"> 
-            <label for = "m-size" class="size-radio-btn">m</label>
-            <input type="radio" name="size" value="l" hidden id="l-size"> 
-            <label for = "l-size" class="size-radio-btn">l</label>
-            <input type="radio" name="size" value="xl" hidden id="xl-size"> 
-            <label for = "xl-size" class="size-radio-btn">xl</label>
-            <input type="radio" name="size" value="xxl" hidden id="xxl-size"> 
-            <label for = "xxl-size" class="size-radio-btn">xxl</label>
+            <div class="sizes">
+                <input type="radio" name="size" value="s" checked hidden id="s-size"> 
+                <label for = "s-size" class="size-radio-btn check">s</label>
+                <input type="radio" name="size" value="m" hidden id="m-size"> 
+                <label for = "m-size" class="size-radio-btn">m</label>
+                <input type="radio" name="size" value="l" hidden id="l-size"> 
+                <label for = "l-size" class="size-radio-btn">l</label>
+                <input type="radio" name="size" value="xl" hidden id="xl-size"> 
+                <label for = "xl-size" class="size-radio-btn">xl</label>
+                <input type="radio" name="size" value="xxl" hidden id="xxl-size"> 
+                <label for = "xxl-size" class="size-radio-btn">xxl</label>
+            </div>
 
             <button class="btn cart-btn">Add To Cart</button>
         </div>
@@ -52,6 +59,147 @@
         <p class="des">Relaxed Fit Standard Logo Crewneck T-Shirt</p>
 
     </section>
+    <!--reviews------------------->
+    <section id="reviews">
+        <!--heading--->
+        <div class="review-heading">
+            <span>Reviews</span>
+            <span id="review-link">Please review our <a href="review.html">product</a></span>
+        </div>
+        <!--reviews-box-container------>
+        <div class="review-box-container">
+            <!--BOX-1-------------->
+            <div class="review-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="img/Kai.webp" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Kai Havertz</strong>
+                            <span>@kaihavertz29</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Amazing T-Shirt.Very happy with the item. Absolutely 
+                        love STYLISHWEAR. Comfortable Tees.
+                    </p>
+                </div>
+            </div>
+            <!--BOX-2-------------->
+            <div class="review-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="img/reece.png" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Reece James</strong>
+                            <span>@rjames24</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>This t shirt is well made; the fabric is so soft. Keeps its shape 
+                        after washing. I now have several in different colors. 
+                        I am so happy to have found this website.
+                        </p>
+                </div>
+            </div>
+            <!--BOX-3-------------->
+            <div class="review-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="img/Rudi.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Antonio Rudiger</strong>
+                            <span>@tonirudiger2</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Top quality and nice colour.</p>
+                </div>
+            </div>
+            <!--BOX-4-------------->
+            <div class="review-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="img/Pulisic.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Christian Pulisic</strong>
+                            <span>@cmpulsic10</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Love it! Love how it fits!</p>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+     
 
 
    <!-- cards-container-->
