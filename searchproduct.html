@@ -22,28 +22,60 @@
     <div class="main-content">
 
         <div class="category-menu">
-             <p class = "radio-mf">Choose between Man and Woman:</p>
-             
-            <div class="radio-male-female">
-                <input type="radio" id="male" name="txt_gender" value="man" required/>
-                <label for="male">Man</label>
-                <input type="radio" id="female" name="txt_gender" value="woman" />
-                <label for="female">Woman</label>
-            </div>
-            
-            <p>BROWSE BY CATEGORIES</p>
 
-            <ul class="category-list">
-                <li><a href="">T-shirts</a></li>
-                <li><a href="">Shirts</a></li>
-                <li><a href="">Trousers</a></li>
-                <li><a href="">Sportswear</a></li>
-                <li><a href="">Hoodies</a></li>
-                <li><a href="">Jeans</a></li>
-                <li><a href="">Shoes</a></li>
-                <li><a href="">Joggers</a></li>
-                <li><a href="">Dresses</a></li>
-            </ul>
+            <div class="wrapper">
+                <header>
+                  <h2>Price Range</h2>
+                  <p>Use slider or enter min and max price</p>
+                </header>
+                <div class="price-input">
+                  <div class="field">
+                    <span>Min</span>
+                    <input type="number" class="input-min" value="0">
+                  </div>
+                  <div class="separator">-</div>
+                  <div class="field">
+                    <span>Max</span>
+                    <input type="number" class="input-max" value="3000">
+                  </div>
+                </div>
+                <div class="slider">
+                  <div class="progress"></div>
+                </div>
+                <div class="range-input">
+                  <input type="range" class="range-min" min="0" max="3000" value="0" step="100">
+                  <input type="range" class="range-max" min="0" max="3000" value="3000" step="100">
+                </div>
+                <div class="submit-btn">
+                    <input type="submit" value="Filter">
+                </div>
+                    
+            </div>
+
+            <div class="choose-category">
+                    <h2>Choose</h2>
+                    <div class="radio-male-female">
+                        <input type="radio" id="male" name="txt_gender" value="man" selected/>
+                        <label for="male">Man</label>
+                        <input type="radio" id="female" name="txt_gender" value="woman"/>
+                        <label for="female">Woman</label>
+                    </div>
+                    
+                    
+                    <p>BROWSE BY CATEGORIES</p>
+        
+                    <ul class="category-list">
+                        <li><a href="">T-shirts</a></li>
+                        <li><a href="">Shirts</a></li>
+                        <li><a href="">Trousers</a></li>
+                        <li><a href="">Sportswear</a></li>
+                        <li><a href="">Hoodies</a></li>
+                        <li><a href="">Jeans</a></li>
+                        <li><a href="">Shoes</a></li>
+                        <li><a href="">Joggers</a></li>
+                        <li><a href="">Dresses</a></li>
+                    </ul>
+            </div>
         </div>
 
         <section class="search-results">
@@ -136,7 +168,7 @@
                 <div class = "product-card">
                     <div class = "product-image">
                         <span class = "discount-tag">50% off</span>
-                        <img src ="img/Men/Trousers/58.png" class="product-thumb" alt="">;
+                        <img src ="img/Men/Trousers/59.png" class="product-thumb" alt="">;
                         <button class="card-btn">Add To Cart</button>
                     </div>
                     <div class = "product-info">
@@ -157,6 +189,8 @@
 
     <script src="js/nav.js"></script>
     <script src="js/footer.js"></script>
+    <script src="js/searchproduct.js"></script>
+    
     
 </body>
 </html>
