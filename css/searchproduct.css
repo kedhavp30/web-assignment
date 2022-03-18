@@ -7,11 +7,19 @@ body {
     padding:60px 70px;
 }
 
+.radio-mf{
+    color: white;
+    background-color: black;
+}
+
 .category-menu {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     font-size: 20px;
+}
+
+.search-results {
 }
 
 .category-menu p {
@@ -56,9 +64,4 @@ body {
 .radio-male-female{
     color: #00AACE
     
-}
-
-.radio-mf{
-    color: white;
-    background-color: black;
 }
