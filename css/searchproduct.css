@@ -1,33 +1,49 @@
-.main-content {
-    display: flex;
-    padding:60px 0;
+body {
+    font-family: Poppins, sans-serif;
 }
 
-.category-filter {
+.main-content {
+    display: flex;
+    padding:60px 70px;
+}
+
+.category-menu {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     font-size: 20px;
 }
 
-.category-filter p {
+.category-menu p {
     margin-top: 10px;
 }
 
-.category-filter a {
+.category-menu a {
     margin: 10px 0 0 13px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.category-menu a:hover {
+    opacity: 1;
+}
+
+.category-list {
+    list-style: none;
 }
 
 .heading{
-    font-size:20px;
+    font-size: 20px;
     text-transform: capitalize;
-    font-weight:400;
+    font-weight: 400;
     margin-bottom: 40px;
     padding: 0 10vw;
 }
 
 .heading span{
-    font-weight:700;
+    font-weight: 700;
 }
 
 .product-container{
@@ -38,11 +54,11 @@
 }
 
 .radio-male-female{
-    color:#00AACE
+    color: #00AACE
     
 }
 
 .radio-mf{
-    color:white;
+    color: white;
     background-color: black;
 }
