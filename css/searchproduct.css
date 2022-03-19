@@ -146,6 +146,7 @@ input[type="number"]::-webkit-inner-spin-button {
   top: -5px;
   background: none;
   pointer-events: none;
+  cursor: col-resize;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
