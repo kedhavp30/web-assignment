@@ -1,6 +1,5 @@
-body {
-    font-family: 'Poppins', sans-serif; 
-}
+@import "nav.css";
+@import "footer.css";
 
 .product-details{
     width:100%;

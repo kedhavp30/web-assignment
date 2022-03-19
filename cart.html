@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+			<meta charset="UTF-8">
+			<title>Shopping Cart</title>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Shopping Cart</title>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="css/cart.css" rel="stylesheet">
-</head>
-<body>
-    <div class="wrapper">
-		<h1>Shopping Cart</h1>
-		<div class="project">
-			<div class="shop">
-				<div class="box">
-					<img src="img/Men/Sportswear/68.png">
-					<div class="content">
-						<h3>Men's Sportswear</h3>
-						<h4>Price: Rs 500</h4>
-						<p class="unit">Quantity: <input name="" value="2"></p>
-						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remove</span></p>
+			<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+			<link rel="stylesheet" href="css/cart.css">
+	</head>
+	<body>
+
+			<nav class="navbar"></nav>
+
+			<div class="wrapper">
+			<h1>Shopping Cart</h1>
+			<div class="project">
+				<div class="shop">
+					<div class="box">
+						<img src="img/Men/Sportswear/68.png">
+						<div class="content">
+							<h3>Men's Sportswear</h3>
+							<h4>Price: Rs 500</h4>
+							<p class="unit">Quantity: <input name="" value="2"></p>
+							<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remove</span></p>
+						</div>
+					</div>
+					<div class="box">
+						<img src="img/Women/Dress/79.png">
+						<div class="content">
+							<h3>Woman's Dress</h3>
+							<h4>Price: Rs 400</h4>
+							<p class="unit">Quantity: <input name="" value="1"></p>
+							<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remove</span></p>
+						</div>
+					</div>
+					<div class="box">
+						<img src="img/Women/Shirts_Blouse/4.png">
+						<div class="content">
+							<h3>Woman's Blouse</h3>
+							<h4>Price: Rs 300</h4>
+							<p class="unit">Quantity: <input name="" value="0"></p>
+							<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remove</span></p>
+						</div>
 					</div>
 				</div>
-				<div class="box">
-					<img src="img/Women/Dress/79.png">
-					<div class="content">
-						<h3>Woman's Dress</h3>
-						<h4>Price: Rs 400</h4>
-						<p class="unit">Quantity: <input name="" value="1"></p>
-						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remove</span></p>
-					</div>
+				<div class="right-bar">
+					<p><span>Subtotal</span> <span>Rs 1200</span></p>
+					<hr>
+					<p><span>Tax (5%)</span> <span>Rs 60</span></p>
+					<hr>
+					<p><span>Total (After Tax) </span> <span>Rs 1260</span></p><a href="#"><i class="fa fa-shopping-cart"></i>Checkout</a>
 				</div>
-				<div class="box">
-					<img src="img/Women/Shirts_Blouse/4.png">
-					<div class="content">
-						<h3>Woman's Blouse</h3>
-						<h4>Price: Rs 300</h4>
-						<p class="unit">Quantity: <input name="" value="0"></p>
-						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remove</span></p>
-					</div>
-				</div>
-			</div>
-			<div class="right-bar">
-				<p><span>Subtotal</span> <span>Rs 1200</span></p>
-				<hr>
-				<p><span>Tax (5%)</span> <span>Rs 60</span></p>
-				<hr>
-				<p><span>Total (After Tax) </span> <span>Rs 1260</span></p><a href="#"><i class="fa fa-shopping-cart"></i>Checkout</a>
 			</div>
 		</div>
-	</div>
-</body>
+
+		<footer></footer>
+
+		<script src="js/nav.js"></script>
+		<script src="js/footer.js"></script>
+		
+	</body>
 </html>
