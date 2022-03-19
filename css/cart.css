@@ -64,6 +64,8 @@ body {
 
 .content h4 {
   margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .btn-area {
@@ -114,7 +116,7 @@ body {
 }
 
 .right-bar a {
-  background-color: #00acee;
+  background-color: #00ACEE;
   color: #fff;
   text-decoration: none;
   display: block;
@@ -129,7 +131,18 @@ body {
 }
 
 .right-bar a:hover {
-  background-color: black;
+  background-color: #383838;
+	transition: 0.5s;
+}
+
+.right-bar .shop-link {
+	margin-top: 30px;
+	background-color: #383838;
+  color: #fff;
+}
+
+.right-bar .shop-link:hover {
+  background-color: #00ACEE;
 	transition: 0.5s;
 }
 
