@@ -140,6 +140,7 @@ body {
 }
 
 .cart-btn:hover{
+    transition: 0.5s;
     background:#383838;
 }
 
