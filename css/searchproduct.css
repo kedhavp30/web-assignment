@@ -55,7 +55,26 @@
 }
 
 .radio-male-female {
-  color: #00aace;
+  width: 100%;
+}
+
+.radio-male-female input[type="radio"] {
+  display: none;
+}
+
+.radio-male-female label {
+  width: 50%;
+  padding: 5px;
+  background-color: #fcfcfc;
+  float: left;
+  text-align: center;
+  border: 1px solid #c0bfbf;
+}
+
+.radio-male-female input[type="radio"]:checked + label {
+  background-color: #00acee;
+  color: #fff;
+  transition: 0.5s;
 }
 
 ::selection {
@@ -196,4 +215,8 @@ input[type="submit"]:hover {
   border-radius: 10px;
   padding: 20px 25px 40px;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+}
+
+.choose-category p {
+  margin-top: 70px;
 }
