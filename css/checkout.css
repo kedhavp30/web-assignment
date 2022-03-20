@@ -1,14 +1,22 @@
-body {
-    background-color: #d7f7ff;
+.main-content {
+    display: flex;
+    padding: 0 70px 70px;
 }
 
 .wrapper {
-    background-color: beige;
     width: 500px;
     padding: 25px;
     margin: 25px auto 0;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+.payment-form {
+    background-color: beige;
+}
+
+.order-summary {
+    flex: 60%;
 }
 
 .wrapper h2 {
@@ -31,7 +39,6 @@ body {
     width: 100%;
     position: relative;
     display: flex;
-    flex-direction: row;
     padding: 5px 0;
 }
 
