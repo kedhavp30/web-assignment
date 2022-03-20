@@ -19,18 +19,58 @@
 
     <div class="main-content">
         
-        <div class="wrapper payment-form">
+        <div class="wrapper order-summary">
+            <h1>Order Summary</h1>
+            <div class="project">
+                <div class="shop">
+                    <div class="box">
+                        <img src="img/Men/Sportswear/68.png">
+                        <div class="content">
+                            <h3>Men's Sportswear</h3>
+                            <h4><span class="product-colour">Colour: Red</span><span class="product-size">Size: S</span>Price: Rs 500</h4>
+                            <p class="unit">Quantity: <input type="number" name="" value="2"></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="img/Women/Dress/79.png">
+                        <div class="content">
+                            <h3>Woman's Dress</h3>
+	                        <h4><span class="product-colour">Colour: Blue</span><span class="product-size">Size: L</span>Price: Rs 400</h4>
+                            <p class="unit">Quantity: <input type="number" name="" value="1"></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="img/Women/Shirts_Blouse/4.png">
+                        <div class="content">
+                            <h3>Woman's Blouse</h3>
+							<h4><span class="product-colour">Colour: Yellow</span><span class="product-size">Size: M</span>Price: Rs 300</h4>
+                            <p class="unit">Quantity: <input type="number" name="" value="0"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-bar">
+				    <p><span>Subtotal</span> <span class="subtotal">Rs 1200</span></p>
+					<hr>
+					<p><span>Tax (5%)</span> <span class="tax">Rs 60</span></p>
+					<hr>
+					<p><span>Total</span> <span class="total">Rs 1260</span></p>
+                    <a href="cart.html" class="checkout-link"><i class="fa fa-shopping-cart"></i>Back to cart</a>
+                </div>
+            </div>
+        </div>
+
+         <div class="wrapper payment-form">
             <h2>Payment Form</h2>
             <form action="" method="post">
                 <!--Account Information Start-->
                 <h4>Account</h4>
                 <div class="input_group">
                     <div class="input_box">
-                        <input type="text" placeholder="Full Name" required class="name">
+                        <input type="text" placeholder="First Name" required class="name">
                         <i class="fa fa-user icon"></i>
                     </div>
                     <div class="input_box">
-                        <input type="text" placeholder="Name on Card" required class="name">
+                        <input type="text" placeholder="Last Name" required class="name">
                         <i class="fa fa-user icon"></i>
                     </div>
                 </div>
@@ -38,6 +78,12 @@
                     <div class="input_box">
                         <input type="email" placeholder="Email Address" required class="name">
                         <i class="fa fa-envelope icon"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="text" placeholder="Telephone number" required class="name">
+                        <i class="fa fa-phone icon"></i>
                     </div>
                 </div>
                 <div class="input_group">
@@ -87,19 +133,9 @@
                         <i class="fa fa-credit-card icon"></i>
                     </div>
                 </div>
-                <div class="input_group">
-                    <div class="input_box">
-                        <input type="number" placeholder="Exp Month" required class="name">
-                        <i class="fa fa-calendar icon" aria-hidden="true"></i>
-                    </div>
-                    <div class="input_box">
-                        <input type="number" placeholder="Exp Year" required class="name">
-                        <i class="fa fa-calendar-o icon" aria-hidden="true"></i>
-                    </div>
-                </div>
                 <div class="input_box">
-                    <input type="number" placeholder="Enter Amount" required class="name">
-                    <i class="fa fa-money icon" aria-hidden="true"></i>
+                    <input type="text" placeholder="Credit PIN" required class="name">
+                    <i class="fa fa-lock icon" aria-hidden="true"></i>
                 </div>
                 <!--Payment Details End-->
                 
@@ -111,45 +147,6 @@
             </form>
         </div>
                 
-        <div class="wrapper order-summary">
-            <h1>Order Summary</h1>
-            <div class="project">
-                <div class="shop">
-                    <div class="box">
-                        <img src="img/Men/Sportswear/68.png">
-                        <div class="content">
-                            <h3>Men's Sportswear</h3>
-                            <h4><span class="product-colour">Colour: Red</span><span class="product-size">Size: S</span>Price: Rs 500</h4>
-                            <p class="unit">Quantity: <input type="number" name="" value="2"></p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <img src="img/Women/Dress/79.png">
-                        <div class="content">
-                            <h3>Woman's Dress</h3>
-	                        <h4><span class="product-colour">Colour: Blue</span><span class="product-size">Size: L</span>Price: Rs 400</h4>
-                            <p class="unit">Quantity: <input type="number" name="" value="1"></p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <img src="img/Women/Shirts_Blouse/4.png">
-                        <div class="content">
-                            <h3>Woman's Blouse</h3>
-							<h4><span class="product-colour">Colour: Yellow</span><span class="product-size">Size: M</span>Price: Rs 300</h4>
-                            <p class="unit">Quantity: <input type="number" name="" value="0"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="right-bar">
-				    <p><span>Subtotal</span> <span class="subtotal">Rs 1200</span></p>
-					<hr>
-					<p><span>Tax (5%)</span> <span class="tax">Rs 60</span></p>
-					<hr>
-					<p><span>Total</span> <span class="total">Rs 1260</span></p>
-                    <a href="cart.html" class="checkout-link"><i class="fa fa-shopping-cart"></i>Back to cart</a>
-                </div>
-            </div>
-        </div>
     </div>
 
     <footer></footer>
